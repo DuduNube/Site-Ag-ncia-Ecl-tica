@@ -1,0 +1,18 @@
+.Introducao{
+    padding: 1rem;
+    border: solid;
+    border-radius: 10%;
+    width: 40rem;
+    margin: auto;
+    margin-top: 10rem ;
+    text-align: justify;
+}
+
+.h1_INTRO{
+    margin-bottom: 3rem;
+}
+
+.p_INTRO{
+    padding: 0% 10%;
+    margin-bottom: 2rem;
+}

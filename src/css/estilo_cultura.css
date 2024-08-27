@@ -1,0 +1,40 @@
+.Cultura_Organizacional{
+    padding: 1rem;
+    border: solid;
+    border-radius: 10%;
+    margin: 5%;
+    width: max-content;
+    text-align: justify;
+}
+
+.h1_CO{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.p_CO{
+    padding: 0% 10%;
+    margin-bottom: 2rem;
+}
+
+#Missao{
+    color: red;
+}
+
+#Visao{
+    color: blue;
+}
+
+#Valores{
+    color: rgb(90, 90, 90);
+}
+
+.list_CO{
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+.Valor{
+    text-align: center;
+}

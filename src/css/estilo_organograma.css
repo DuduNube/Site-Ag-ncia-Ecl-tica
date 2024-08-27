@@ -1,0 +1,53 @@
+.Organograma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 10rem;
+    gap: 1rem;
+}
+
+#Principal_ORG{
+    justify-content: center;    
+}
+
+#Organograma_ORG{
+    width: 100%;
+    border: black 1rem solid;
+}
+
+#Secundario_ORG{
+    padding: 2rem;
+    border-radius: 5%;
+    border: black 1rem solid;
+}
+
+.Setores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Log_ORG, #DP_ORG, #Jur_ORG, #Markt_ORG, #Rel_ORG, #Com_ORG, #Sec_ORG, #Pres_ORG, #Tec_ORG {
+    border:  5px solid;
+    padding: 1rem;
+    margin: 1rem;
+    width: 15rem;
+    height: 30rem;
+    border-radius: 14%;
+}
+
+.h1_ORG{
+    text-align: center;
+}
+
+.h2_ORG{
+    text-transform: uppercase;
+}
+
+h3{
+    margin-top: 2rem;
+}
+
+.Cargos{
+    text-align: left;
+}
