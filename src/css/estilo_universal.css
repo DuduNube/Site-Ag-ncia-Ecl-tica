@@ -19,9 +19,26 @@ body{
     align-items: center;
 }
 
-main{
-    background-color: white;
+.hr-claro{
+    width: 100%;
+    height: 9px;
+    background-color: rgb(102, 248, 97);
 }
+                    .hr-escuro{
+                        width: 100%;
+                        height: 9px;
+                        background-color: rgb(36, 45, 48);
+                    }
+
+.Claro{
+    background-color: white;
+    color: black;
+}
+
+                .Escuro{
+                    background-color: black;
+                    color: white;
+                }
 
 p{
     font-family: 'Poppins_Light';
@@ -38,6 +55,17 @@ p{
     padding: 1rem;
     width: 100%;
 }
+
+                    .Cabecalho_Escuro{
+                        color: white;
+                        background-color: black;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        gap: 1%;
+                        padding: 1rem;
+                        width: 100%;
+                    }
 
 h1{
     font-size: xx-large;
@@ -93,7 +121,7 @@ a:hover{
 .Rodape{
     position: relative;
     margin-top: 20%;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
     text-align: center;
     bottom: 0;
@@ -105,6 +133,21 @@ a:hover{
     gap: 1%;
 }
 
+                .Rodape_Escuro{
+                    position: relative;
+                    margin-top: 20%;
+                    padding-top: 2rem;
+                    padding-bottom: 1rem;
+                    text-align: center;
+                    bottom: 0;
+                    width: 100%;
+                    background-color: black;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    gap: 1%;
+}
+
 i{
     font-family:"Poppins_Light";
     color: lightgrey;
@@ -113,4 +156,8 @@ i{
 #Senac{
     border-radius: 0;
     width: 10rem;
+}
+#baixo{
+    top: 0;
+    position:absolute;
 }
